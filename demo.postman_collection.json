@@ -1,0 +1,209 @@
+{
+	"variables": [],
+	"info": {
+		"name": "demo",
+		"_postman_id": "83e71dee-d7d4-9439-f7b9-478fb0aecb1c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8888/demo/oauth/token",
+			"request": {
+				"url": "http://localhost:8888/demo/oauth/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ZGVtbzoxMjM0NTY=",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "client",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "demo",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/contact/16",
+			"request": {
+				"url": "http://localhost:8888/demo/contact/16",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDQxODEyMDYsInVzZXJfbmFtZSI6ImNsaWVudCIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl0sImp0aSI6IjllNTAzNzRlLTBhMGMtNDg4My04ZmU2LTcwYjZhMzUwZWRmZiIsImNsaWVudF9pZCI6ImRlbW8iLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Ck-bBOfOx3K6mjiOG1uSBcKqsWuEK6_9zRSU-gMUZIjR0sxxqc-p1bU9GoMZTa6T-Y_8rkL8CHtvYrHkfF_vPVKhImHl4Mo4qDSVbQmHbS4_lV3Dg2ijjE1Cw54VV26z9TJWyTe2Iz4L08sg3mF7KBIvfsVARqxgLPWH723Lm1k",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/contact",
+			"request": {
+				"url": "http://localhost:8888/demo/contact",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDQxODEyMDYsInVzZXJfbmFtZSI6ImNsaWVudCIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl0sImp0aSI6IjllNTAzNzRlLTBhMGMtNDg4My04ZmU2LTcwYjZhMzUwZWRmZiIsImNsaWVudF9pZCI6ImRlbW8iLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Ck-bBOfOx3K6mjiOG1uSBcKqsWuEK6_9zRSU-gMUZIjR0sxxqc-p1bU9GoMZTa6T-Y_8rkL8CHtvYrHkfF_vPVKhImHl4Mo4qDSVbQmHbS4_lV3Dg2ijjE1Cw54VV26z9TJWyTe2Iz4L08sg3mF7KBIvfsVARqxgLPWH723Lm1k",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"birthday\": \"1970-01-18T20:53:20.000+0000\",\n    \"company\": \"NA\",\n    \"email\": \"test@gmail.com\",\n    \"name\": \"Test\",\n    \"nick_name\": \"Nick\",\n    \"note\": \"Note\",\n    \"phone\": \"11122233\",\n    \"title\": \"SE\",\n    \"user_id\": 1\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/contact",
+			"request": {
+				"url": "http://localhost:8888/demo/contact/16",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDQxODEyMDYsInVzZXJfbmFtZSI6ImNsaWVudCIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl0sImp0aSI6IjllNTAzNzRlLTBhMGMtNDg4My04ZmU2LTcwYjZhMzUwZWRmZiIsImNsaWVudF9pZCI6ImRlbW8iLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Ck-bBOfOx3K6mjiOG1uSBcKqsWuEK6_9zRSU-gMUZIjR0sxxqc-p1bU9GoMZTa6T-Y_8rkL8CHtvYrHkfF_vPVKhImHl4Mo4qDSVbQmHbS4_lV3Dg2ijjE1Cw54VV26z9TJWyTe2Iz4L08sg3mF7KBIvfsVARqxgLPWH723Lm1k",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"birthday\": \"1970-01-18T20:53:20.000+0000\",\n    \"company\": \"NA\",\n    \"email\": \"test@gmail.com\",\n    \"name\": \"Test\",\n    \"nick_name\": \"Nick_UPDATED\",\n    \"note\": \"Note\",\n    \"phone\": \"11122233\",\n    \"title\": \"SE\",\n    \"userId\": 16\n    \n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/contact",
+			"request": {
+				"url": "http://localhost:8888/demo/contact/16",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDQxODEyMDYsInVzZXJfbmFtZSI6ImNsaWVudCIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl0sImp0aSI6IjllNTAzNzRlLTBhMGMtNDg4My04ZmU2LTcwYjZhMzUwZWRmZiIsImNsaWVudF9pZCI6ImRlbW8iLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Ck-bBOfOx3K6mjiOG1uSBcKqsWuEK6_9zRSU-gMUZIjR0sxxqc-p1bU9GoMZTa6T-Y_8rkL8CHtvYrHkfF_vPVKhImHl4Mo4qDSVbQmHbS4_lV3Dg2ijjE1Cw54VV26z9TJWyTe2Iz4L08sg3mF7KBIvfsVARqxgLPWH723Lm1k",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/admin",
+			"request": {
+				"url": "http://localhost:8888/demo/admin",
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/admin/metrics/contact.get",
+			"request": {
+				"url": "http://localhost:8888/demo/admin/metrics/contact.get",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/admin/metrics/contact.post",
+			"request": {
+				"url": "http://localhost:8888/demo/admin/metrics/contact.post",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/admin/metrics/contact.put",
+			"request": {
+				"url": "http://localhost:8888/demo/admin/metrics/contact.put",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/demo/admin/metrics/contact.delete",
+			"request": {
+				"url": "http://localhost:8888/demo/admin/metrics/contact.delete",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
