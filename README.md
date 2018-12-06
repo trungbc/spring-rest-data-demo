@@ -13,6 +13,7 @@
     + scheme.name<br>
     
 - Move to the project folder and run mvn command to generate database: <code>mvn flyway:migrate</code>
+- Then, run mvn command to build project <code>mvn clean install </code>
 
 3.Run standalone
 - Change to <code>target folder </code> and run <code>demo.jar</code> by command: <code>java - jar demo.jar </code><br>
