@@ -22,4 +22,4 @@
 
 4.Run debug mode
 - Run debug mode by command: <code>java -Xdebug -Xrunjdwp:transport=dt_socket,address=8080,server=y,suspend=n -jar demo.jar </code>
-- Next, use IDE to remote debug.
+- Next, use any IDE(Eclipse, STS, Intellij ) to remote debug.
