@@ -18,8 +18,8 @@
 3.Run standalone
 - Change to <code>target folder </code> and run <code>demo.jar</code> by command: <code>java - jar demo.jar </code><br>
 - Use <code>demo.postman_collection.json</code> for testing
-- At first, run <code>oauth/token endpoint</code> to get token and then use the token to test other APIs.
+- At first, run <code>oauth/token endpoint</code> to get token and then use the token to test other APIs.<br>
 
-4. Run debug mode
+4.Run debug mode
 - Run debug mode by command: <code>java -Xdebug -Xrunjdwp:transport=dt_socket,address=8080,server=y,suspend=n -jar demo.jar </code>
 - Next, use IDE to remote debug.
