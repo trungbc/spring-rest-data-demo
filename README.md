@@ -16,7 +16,7 @@
 - Then, run mvn command to build project <code>mvn clean install </code>
 
 3.Run standalone
-- Change to <code>target folder </code> and run <code>demo.jar</code> by command: <code>java - jar demo.jar </code><br>
+- Move to <code>target folder </code> and run <code>demo.jar</code> by command: <code>java - jar demo.jar </code><br>
 - Use <code>demo.postman_collection.json</code> for testing
 - At first, run <code>oauth/token endpoint</code> to get token and then use the token to test other APIs.<br>
 
