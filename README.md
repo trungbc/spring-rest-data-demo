@@ -5,7 +5,7 @@
 - Maven 3.x
 
 2.Setup<br>
-- Open pom.xml file and change databse server information follows your system.
+- Open pom.xml file and change databse server information that depend on your system.
   
     + database.host
     + database.user
