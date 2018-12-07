@@ -18,6 +18,7 @@
 3.Run standalone
 - Move to <code>target folder </code> and run <code>demo.jar</code> by command: <code>java - jar demo.jar </code><br>
 - Use <code>demo.postman_collection.json</code> for testing
+- Account to login: <code>demo/123456</code>
 - At first, run <code>oauth/token endpoint</code> to get token and then use the token to test other APIs.<br>
 
 4.Run debug mode
